@@ -9,9 +9,16 @@
 <body>
     <h1>Cadastrar Usuario</h1>
     <form method="POST" action="processa.php">
-     <label>Nome: </label>
-     <input type="text" name="nome" placeholder="Digite seu nome completo"><br><br>
+     <label>E-mail: </label>
+     <input type="email" name="email" placeholder="Digite seu e-mail"><br><br>
 
+     <label>Senha: </label>
+     <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
+
+     <label>Telefone: </label>
+     <input type="tel" name="Telefone" placeholder="(xx)xxxxx-xxxx"><br><br>
+
+      <input type="submit" value="Cadastrar">
     </form>
 </body>
 </html>
